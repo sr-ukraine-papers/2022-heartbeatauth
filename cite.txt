@@ -1,0 +1,11 @@
+@inproceedings{progonov-21-heartbeat,
+    author = {Progonov, Dmytro and Sokol, Oleksandra},
+    title = {{User Authentication on Wearable Devices by Component Analysis of Heartbeat Signals}},
+    booktitle = {Who Are You?! Adventures in Authentication Workshop},
+    year = {2021},
+    series = {WAY~'21},
+    pages = {1--5},
+    address = {Virtual Conference},
+    month = aug,
+    publisher = {}
+} % No publisher

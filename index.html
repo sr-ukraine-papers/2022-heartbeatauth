@@ -1,0 +1,451 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+
+<!-- Proprietary CSS -->
+<!-- <link href="style.css" rel="stylesheet"> -->
+
+<!-- Google fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cantarell">
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+		integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+<!-- Care about mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Heartbeat-Based Authentication on Smartwatches</title>
+
+</head>
+
+<body>
+
+<div class="container w-50">
+
+	<div class="row text-center">
+		<div class="col-12">
+		<h1 class="mt-5">Heartbeat-Based Authentication on Smartwatches</h1>
+		<h5 class="text-muted my-4">Seventeenth Symposium on Usable Privacy and Security, SOUPS 2021</h5>
+		<h5 class="my-4">Who Are You?! Adventures in Authentication Workshop, WAY-2021, Vancouver, B.C., Canada, August 11-13, 2021</h5>
+		</div>
+	</div>
+
+	<div class="row text-center">
+		<div class="col-6">
+			<a type="button" class="btn btn-primary" href="mailto:author1ATgmailDOTcom">
+				<img src="images/at.svg"/>
+				Progonov Dmytro</a>
+		</div>
+		<div class="col-6">
+			<a type="button" class="btn btn-primary" href="mailto:author2ATgmailDOTcom">
+				<img src="images/at.svg"/>
+				Oleksandra Sokol</a>
+		</div>
+	</div>
+
+	<div class="row text-center">
+		<div class="col">
+			<a type="button" class="btn btn-link" href="https://xxxxxx.com">Organization 1</a>
+		</div>
+		<div class="col">
+			<a type="button" class="btn btn-link" href="https://xxxxxx.com">Organization 1</a>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="row text-center">
+		<div class="col-4">
+			<a type="button" class="btn btn-light" href="https://wayworkshop.org/2021/papers/way2021-progonov.pdf">
+				<img src="images/file-pdf.svg" class="img-fluid p-2" alt="file">
+				<h5>Paper</h5>
+				<p>Download pdf</p>
+			</a>
+		</div>
+		<div class="col-4">
+			<a type="button" class="btn btn-light" href="https://wayworkshop.org/2021/papers/way2021-progonov.html">
+				<img src="images/person-chalkboard.svg" class="img-fluid p-2" alt="file">
+				<h5>WAY 2021</h5>
+				<p>Conference</p>
+			</a>
+		</div>
+		<div class="col-4">
+			<a type="button" class="btn btn-light" href="./bibtex_citation.txt">
+				<img src="images/graduation-cap.svg" class="img-fluid p-2" alt="file">
+				<h5>BIBTEX</h5>
+				<p>Cite the paper</p>
+			</a>
+		</div>
+	</div>
+    
+	<div class="row">
+	<div class="col-12">
+		<h4 class="text-center mt-4">Abstract</h4>
+	</div>
+
+            <div class="offset-md-0 col-md-12 main_text">
+              <div class="lead mb-0">
+                Today wearable devices, such as smartwatches, become significant part of our life.
+				In spite of rich functionality, computational and device geometry constraints limit
+				the possibility of their usage for strong user-friendly authentication,
+				such as fingerprint or face recognition. Thus, the physiology and behavior based solutions
+				have taken a special interest in last years.
+
+				<p>&nbsp;</p>
+
+				Emergence of high-precision sensors for electrocardiogram signals tracking on smartwatches
+				made heartbeat authentication technology an attractive candidate for on-device user authentication.
+				The companies provided advanced solutions for user authentication by heartbeat signals are presented below.
+
+				<p>&nbsp;</p>
+
+				<table border="1" cellpadding="10" cellspacing="10" style="min-width:500px" class="mx-auto">
+					<tbody>
+						<tr>
+							<td style="text-align:center"><img width=100hv height=50hv src="images/AtosLogo.png" type="image/png" alt="AtosLogo"></td>
+							<td style="text-align:center"><img width=100hv height=50hv src="images/BSecurLogo.png" type="image/png" alt="AtosLogo"></td>
+							<td style="text-align:center"><img width=100hv height=50hv src="images/FlywalletLogo.png" type="image/png" alt="AtosLogo"></td>
+						</tr>
+						<tr>
+							<td style="text-align:center"><img width=100hv height=50hv src="images/GDLogo.png" type="image/png" alt="AtosLogo"></td>
+							<td style="text-align:center"><img width=100hv height=50hv src="images/MIS-Electronics-Logo.png" type="image/png" alt="AtosLogo"></td>
+							<td style="text-align:center"><img width=100hv height=50hv src="images/NymiLogo.png" type="image/png" alt="AtosLogo"></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p>&nbsp;</p>
+
+				</div>
+
+			<div class="lead mb-0">
+
+				Nevertheless, proposed solutions for heartbeat signals based user authentication is focused
+				on a single usage context, that may be inappropriate for mass-market products. Thus a suitable
+				alternative is needed for on-device sensitive information processing in any usage context.
+
+				<p style="text-align:center;"><img  class="w-100" height=300hv src="images/user_ecg_different_activities.jpeg" type="image/jpeg" alt="Example of heartbeat signals in different usage contexts, same person"></p>
+
+				<p>&nbsp;</p>
+
+			</div>
+
+			<div class="lead mb-0">
+
+				We proposed to use an innovative component analysis methods to address these issues by applying
+				less resource-intensive algorithms. The considered methods include multifractal analysis (MFA),
+				singular spectrum analysis (SSA), and dictionary learning methods.  They provide compact (learned)
+				representation of heterogeneous signals at low computation complexity of signal decomposition procedure.
+
+				<p>&nbsp;</p>
+
+			</div>
+
+			<div class="lead mb-0">
+
+			 The MFA is aimed at evaluating statistical parameters of heterogeneous signals (multifractals) that provide
+			 local power law dependency of adjacency elements values with singularity exponent h(t). The MFA allows for analysing
+			 the fine structure of signal by its decomposition at different time scale. The example of obtained generalized fractal dimensions
+			 spectrum <span style="font-family:sans-serif; font-size:12.5998px"> </span><span style="font-family:sans-serif; font-size:12.5998px">D</span><span style="font-family:sans-serif; font-size:9.32379px">q</span>
+			 for different users and various usage contexts are presented below.
+			 <p>&nbsp;</p>
+
+			 <p style="text-align:center;"><img width="100%" height=300hv src="images/test_Renyi_spectrum_diffUser.png" type="image/png" alt="Example of MFA spectrum in different usage contexts, same person"></p>
+
+			 <p>&nbsp;</p>
+
+			 <p style="text-align:center;"><img width="100%" height=300hv src="images/test_Renyi_spectrum_sameUser.png" type="image/png" alt="Example of MFA spectrum for different person, same usage context"></p>
+
+			 <p>&nbsp;</p>
+
+			</div>
+
+			<div class="lead mb-0">
+
+			 In contrast to MFA, Singular Spectrum Analysis (SSA) method is aimed at decomposing of a signal (time series)
+			 into a sum of series, so that each component can be identified as either a trend, periodic or quasi-periodic
+			 component, or a noise. Analysis of extracted components allows for selecting appropriate components
+			 to be used as features during user authentication. Example of estimated SSA spectrum for heartbeat signals
+			 gathered for a single user in various usage contexts are shown below.
+
+			 <p>&nbsp;</p>
+
+			 <p style="text-align:center;"><img width="100%" height=300hv src="images/SSA-diff-context.png" type="image/png" alt="Example of SSA spectrum in different usage contexts, same person"></p>
+
+			 <p>&nbsp;</p>
+
+			 </div>
+
+			<div class="lead mb-0">
+
+			 Nevertheless, these components should be manually selected, which may be inappropriate in real applications.
+			 Therefore it can be useful for decomposition methods that “learn” appropriate representation from the signal.
+			 In our research, we used dictionary-learning methods for creating user-specific basis for HBS decomposition.
+			 The main  idea is that heartbeat signals of target user may be sparsely represented in learned dictionary,
+			 while signals of another person require much ”denser” representation. The examples of learned atoms for a
+			 single user are presented below.
+
+			 <p style="text-align:center;"><img width="100%" height=300hv src="images/DictLearning-example-of-atoms.png" type="image/png" alt="Example of learned atoms for heartbeat signals gathered for a person in supine position"></p>
+
+			 <p>&nbsp;</p>
+
+			</div>
+
+			<div class="lead mb-0">
+
+				Considered methods were tested on Samsung Galaxy Watch 3 smartwatch. Evaluation was done for two cases:
+				heartbeat signals (HBS) captured in fixed (supine) position, and signals collected in various usage contexts.
+				The first was used to compare the accuracy against the existing state-of-the-art. The second one
+				allows for evaluating performance metrics during real-life activities such as sitting, still standing and walking.
+
+				<p>&nbsp;</p>
+
+			</div>
+
+			<div class="lead mb-0">
+
+				Obtained multifractal spectrum, SSA spectrum and decomposition coefficients in learned dictionary were used as features
+				for HBS classification during user authentication. Proposed solution was compared with state-of-the-art Discrete
+				Wavelet Transform (DWT) based method proposed by <a href="https://www.mdpi.com/1424-8220/20/19/5690">Enamamu et al.</a>
+				The Enamamu’s solution uses statistical parameters of DWT coefficients for ECG-signals as features during user
+				authentication. Heartbeat signals features  were extracted using well-known wavelet bases, such as Daubechies,
+				biorthogonal, Meyer to name a few.
+
+				<p>&nbsp;</p>
+
+			</div>
+
+			<div class="lead mb-0">
+
+				The examples of HBS for fixed (supine) position were taken from publicly available datasets found in <a href="https://physionet.org/">PhysioNet</a>
+				service:
+
+				<ul style="margin-top: 20px; padding-bottom: 20px;" class=" lead mb-0">
+                <li> <a href="https://ieeexplore.ieee.org/document/6713413">Combined measurements of ECG, Breathing and Seismocardiograms</a> – the dataset includes measurements of 20 presumably healthy volunteers. Approximately, 867 signals per-user were captured. </li>
+                <li> <a href="https://https://physionet.org/content/wctecgdb/1.0.1/">Wilson Central Terminal ECG Database</a> – the dataset includes ECG signals recorded from 92 patients (14 signal-per-user on average) with I – III Leads.</li>
+                <li> The in-house dataset  - includes ECG-signals captured with Samsung Galaxy Watch 3 by presumably healthy volunteers
+					(25 logs-per-user with 30 heartbeat-per-log on average) in widespread usage contexts (during lying, sitting, still standing and walking).</li>
+              </ul>
+
+				<p>&nbsp;</p>
+
+			</div>
+
+			<div class="lead mb-0">
+
+				The estimated FAR and FRR values for considered signal transformation methods and state-of-the-art Enamamu’s solutions are presented below.
+
+				<table class="table-bordered" cellpadding="1" cellspacing="1" width="100%">
+					<tbody>
+						<tr>
+							<td style="border-color:#000000; text-align:center">Dataset</td>
+							<td style="border-color:#000000; text-align:center">Used features</td>
+							<td style="border-color:#000000; text-align:center">FAR, %</td>
+							<td style="border-color:#000000; text-align:center">FRR, %</td>
+						</tr>
+						<tr>
+							<td colspan="1" rowspan="4" style="border-color:#000000">
+							<p style="text-align:center">Wilson Central Terminal</p>
+
+							<p style="text-align:center">ECG Database</p>
+							</td>
+							<td style="border-color:#000000; text-align:center">Multifractal analysis</td>
+							<td style="border-color:#000000; text-align:center">4.97</td>
+							<td style="border-color:#000000; text-align:center">8.16</td>
+						</tr>
+						<tr>
+							<td style="border-color:#000000; text-align:center">Singular spectrum analysis</td>
+							<td style="border-color:#000000; text-align:center">0.08</td>
+							<td style="border-color:#000000; text-align:center">11.95</td>
+						</tr>
+						<tr>
+							<td style="border-color:#000000; text-align:center">Dictionary learning</td>
+							<td style="background-color:#ff6699; border-color:#000000; text-align:center">70.95</td>
+							<td style="background-color:#ff6699; border-color:#000000; text-align:center">6.33</td>
+						</tr>
+						<tr>
+							<td style="border-color:#000000; text-align:center">Enamamu&rsquo;s solution</td>
+							<td style="background-color:#00ff99; border-color:#000000; text-align:center">3.61</td>
+							<td style="background-color:#00ff99; border-color:#000000; text-align:center">2.08</td>
+						</tr>
+						<tr>
+							<td colspan="1" rowspan="4" style="border-color:#000000">
+							<p style="text-align:center">Combined measurements of ECG,</p>
+
+							<p style="text-align:center">Breathing and Seismo-<br />
+							cardiograms</p>
+							</td>
+							<td style="border-color:#000000; text-align:center">Multifractal analysis</td>
+							<td style="border-color:#000000; text-align:center">0.03</td>
+							<td style="border-color:#000000; text-align:center">1.77</td>
+						</tr>
+						<tr>
+							<td style="border-color:#000000; text-align:center">Singular spectrum analysis</td>
+							<td style="background-color:#00ff99; border-color:#000000; text-align:center">0.01</td>
+							<td style="background-color:#00ff99; border-color:#000000; text-align:center">0.68</td>
+						</tr>
+						<tr>
+							<td style="border-color:#000000; text-align:center">Dictionary learning</td>
+							<td style="background-color:#ff6699; border-color:#000000; text-align:center">0.42</td>
+							<td style="background-color:#ff6699; border-color:#000000; text-align:center">51.62</td>
+						</tr>
+						<tr>
+							<td style="border-color:#000000; text-align:center">Enamamu&rsquo;s solution</td>
+							<td style="border-color:#000000; text-align:center">0.01</td>
+							<td style="border-color:#000000; text-align:center">0.77</td>
+						</tr>
+					</tbody>
+				</table>
+
+			<p>&nbsp;</p>
+
+			</div>
+
+			<div class="lead mb-0">
+
+				Note large values of FAR (FAR ~ 0.5%) and FRR (FRR~ 50%) metrics for Dictionary Learning method in comparison with other methods.
+				This can be explained by high similarity of captured HBS that leads to high similarity of learned dictionaries A for users.
+				On the other hand, MFA and SSA methods allow for achieving authentication accuracy on open datasets that is close to
+				the state-of-the-art Enamamu’s solution.
+
+			<p>&nbsp;</p>
+
+			</div>
+
+			<div class="lead mb-0">
+
+				Also, False Acceptance Rate and False Rejection Rate were calculated by using HBS captured for various
+				usage contexts (user’s physical activities). Evaluated metrics for considered signal processing methods and Enamamu’s
+				solution are presented in the next table.
+
+				<p>&nbsp;</p>
+
+				<table class="table-bordered" cellpadding="1" cellspacing="1" width="100%">
+					<tbody>
+						<tr>
+							<td style="text-align:center; width:158px">Dataset</td>
+							<td style="text-align:center; width:258px">Used features</td>
+							<td style="text-align:center; width:74px">FAR</td>
+							<td style="text-align:center; width:67px">FRR</td>
+						</tr>
+						<tr>
+							<td colspan="1" rowspan="4" style="text-align:center; width:158px">Users are lying</td>
+							<td style="text-align:center; width:258px">Multifractal analysis</td>
+							<td style="text-align:center; width:74px">2.66</td>
+							<td style="text-align:center; width:67px">39.90</td>
+						</tr>
+						<tr>
+							<td style="text-align:center; width:258px">Singular spectrum analysis</td>
+							<td style="text-align:center; width:74px">5.49</td>
+							<td style="text-align:center; width:67px">28.06</td>
+						</tr>
+						<tr>
+							<td style="text-align:center; width:258px">Dictionary learning</td>
+							<td style="background-color:#ff6699; text-align:center; width:74px">0.21</td>
+							<td style="background-color:#ff6699; text-align:center; width:67px">60.95</td>
+						</tr>
+						<tr>
+							<td style="text-align:center; width:258px">Enamamu&rsquo;s solution</td>
+							<td style="background-color:#00ff99; text-align:center; width:74px">1.76</td>
+							<td style="background-color:#00ff99; text-align:center; width:67px">22.15</td>
+						</tr>
+						<tr>
+							<td colspan="1" rowspan="4" style="text-align:center; width:158px">Users are sitting</td>
+							<td style="text-align:center; width:258px">Multifractal analysis</td>
+							<td style="text-align:center; width:74px">2.14</td>
+							<td style="text-align:center; width:67px">30.28</td>
+						</tr>
+						<tr>
+							<td style="text-align:center; width:258px">Singular spectrum analysis</td>
+							<td style="text-align:center; width:74px">4.12</td>
+							<td style="text-align:center; width:67px">20.53</td>
+						</tr>
+						<tr>
+							<td style="text-align:center; width:258px">Dictionary learning</td>
+							<td style="background-color:#ff6699; text-align:center; width:74px">2.68</td>
+							<td style="background-color:#ff6699; text-align:center; width:67px">58.62</td>
+						</tr>
+						<tr>
+							<td style="text-align:center; width:258px">Enamamu&rsquo;s solution</td>
+							<td style="background-color:#00ff99; text-align:center; width:74px">0.95</td>
+							<td style="background-color:#00ff99; text-align:center; width:67px">18.79</td>
+						</tr>
+						<tr>
+							<td colspan="1" rowspan="4" style="text-align:center; width:158px">Users are standing</td>
+							<td style="text-align:center; width:258px">Multifractal analysis</td>
+							<td style="text-align:center; width:74px">6.54</td>
+							<td style="text-align:center; width:67px">29.51</td>
+						</tr>
+						<tr>
+							<td style="text-align:center; width:258px">Singular spectrum analysis</td>
+							<td style="text-align:center; width:74px">3.61</td>
+							<td style="text-align:center; width:67px">17.95</td>
+						</tr>
+						<tr>
+							<td style="text-align:center; width:258px">Dictionary learning</td>
+							<td style="background-color:#ff6699; text-align:center; width:74px">0.56</td>
+							<td style="background-color:#ff6699; text-align:center; width:67px">63.06</td>
+						</tr>
+						<tr>
+							<td style="text-align:center; width:258px">Enamamu&rsquo;s solution</td>
+							<td style="background-color:#00ff99; text-align:center; width:74px">0.88</td>
+							<td style="background-color:#00ff99; text-align:center; width:67px">14.25</td>
+						</tr>
+						<tr>
+							<td colspan="1" rowspan="4" style="text-align:center; width:158px">Users are waling</td>
+							<td style="text-align:center; width:258px">Multifractal analysis</td>
+							<td style="text-align:center; width:74px">34.69</td>
+							<td style="text-align:center; width:67px">20.50</td>
+						</tr>
+						<tr>
+							<td style="text-align:center; width:258px">Singular spectrum analysis</td>
+							<td style="background-color:#00ff99; text-align:center; width:74px">7.70</td>
+							<td style="background-color:#00ff99; text-align:center; width:67px">36.98</td>
+						</tr>
+						<tr>
+							<td style="text-align:center; width:258px">Dictionary learning</td>
+							<td style="background-color:#ff6699; text-align:center; width:74px">3.41</td>
+							<td style="background-color:#ff6699; text-align:center; width:67px">76.66</td>
+						</tr>
+						<tr>
+							<td style="text-align:center; width:258px">Enamamu&rsquo;s solution</td>
+							<td style="text-align:center; width:74px">2.03</td>
+							<td style="text-align:center; width:67px">45.37</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p>&nbsp;</p>
+
+			</div>
+
+			<div class="lead mb-0">
+
+				 Using Dictionary Learning techniques leads to considerable increase of FRR values (up to 76%)
+				 by preserving FAR values close to state-of-the-art solutions. Usage of multifractal and singular spectrum
+				 analyses allowed to achieve close to Enamamu’s method authentication accuracy.
+
+			<p>&nbsp;</p>
+
+			</div>
+
+			<div class="lead mb-0">
+
+				Evaluation results showed that proposed processing
+				pipelines, based on multifractal analysis and singular spectrum analysis, achieved close to state-of-the-art Enamamu’s
+				accuracy (0.01% False Acceptance Rate and 0.77% False Rejection Rate), and outperformed it in various usage contexts.
+				Obtained results confirm the effectiveness of using specialized signal processing methods for heartbeat authentication
+				on constrained devices such as wearables.
+              </div>
+            </div>
+            <p></p>
+          </div>
+    </div>
+
+	<hr />
+	<p style="text-align:center">Some company, Copyright&nbsp;&copy; 2022</p>
+  </body>
+</html>
